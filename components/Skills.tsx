@@ -6,9 +6,11 @@ const Skills = () => {
     { name: 'Python', value: 100 },
     { name: 'Django', value: 100 },
     { name: 'FastAPI', value: 80 },
-    { name: 'JavaScript', value: 90 },
+    { name: 'Flask', value: 80 },
     { name: 'TypeScript', value: 80 },
+    { name: 'JavaScript', value: 90 },
     { name: 'React', value: 70 },
+    { name: 'NextJS', value: 75 },
     { name: 'Dart', value: 80 },
     { name: 'Flutter', value: 60 },
     { name: 'SQL', value: 80 },
@@ -16,11 +18,11 @@ const Skills = () => {
     { name: 'Docker', value: 100 },
     { name: 'Kubernetes', value: 50 },
     { name: 'Git', value: 90 },
+    { name: 'CI/CD', value: 80 },
     { name: 'Leadership', value: 100 },
     { name: 'Creativity', value: 100 },
     { name: 'Communication', value: 95 },
     { name: 'Problem Solving', value: 90 },
-    { name: 'Teamwork', value: 85 },
   ]
 
   const languages = [
