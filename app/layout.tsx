@@ -28,7 +28,7 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://codewithemad.com'),
+  metadataBase: new URL('https://codewithemad.github.io'),
   title: 'Emad Rad - Software Engineer',
   description: 'Explore my portfolio and professional journey as a software engineer.',
   manifest: '/site.webmanifest',
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
     locale: 'en',
     images: [
       {
-        url: '/images/website-social-card.png',
+        url: 'https://codewithemad.github.io/images/website-social-card.png',
         width: 1200,
         height: 630,
         alt: 'Emad Rad - Software Engineer Portfolio',
@@ -77,7 +77,7 @@ export const metadata: Metadata = {
     title: 'Emad Rad - Software Engineer',
     description: 'Explore my portfolio and professional journey as a software engineer.',
     creator: '@codewithemad',
-    images: ['/images/website-social-card.png'],
+    images: ['https://codewithemad.github.io/images/website-social-card.png'],
   },
   other: {
     'msapplication-TileColor': '#da532c',
