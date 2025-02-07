@@ -77,11 +77,15 @@ export const metadata: Metadata = {
     title: 'Emad Rad - Software Engineer',
     description: 'Explore my portfolio and professional journey as a software engineer.',
     creator: '@codewithemad',
-    images: ['https://codewithemad.github.io/images/website-social-card.png'],
+    site: '@codewithemad',
+    images: {
+      url: 'https://codewithemad.github.io/images/website-social-card.png',
+      alt: 'Emad Rad - Software Engineer Portfolio',
+    },
   },
   other: {
     'msapplication-TileColor': '#da532c',
-    'apple-mobile-web-app-title': 'Dr. Asadi',
+    'apple-mobile-web-app-title': 'Emad Rad - Software Engineer',
   },
   category: 'technology',
 }
