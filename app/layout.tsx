@@ -28,7 +28,7 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://codewithemad.github.io'),
+  metadataBase: new URL('https://codewithemad.ir'),
   title: 'Emad Rad - Software Engineer',
   description: 'Explore my portfolio and professional journey as a software engineer.',
   manifest: '/site.webmanifest',
@@ -58,13 +58,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Emad Rad - Software Engineer',
     description: 'Explore my portfolio and professional journey as a software engineer.',
-    url: 'https://codewithemad.github.io',
+    url: 'https://codewithemad.ir',
     siteName: 'Emad Rad Portfolio',
     type: 'website',
     locale: 'en',
     images: [
       {
-        url: 'https://codewithemad.github.io/images/website-social-card.png',
+        url: 'https://codewithemad.ir/images/website-social-card.png',
         width: 1200,
         height: 630,
         alt: 'Emad Rad - Software Engineer Portfolio',
@@ -79,7 +79,7 @@ export const metadata: Metadata = {
     creator: '@codewithemad',
     site: '@codewithemad',
     images: {
-      url: 'https://codewithemad.github.io/images/website-social-card.png',
+      url: 'https://codewithemad.ir/images/website-social-card.png',
       alt: 'Emad Rad - Software Engineer Portfolio',
     },
   },
