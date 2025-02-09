@@ -9,7 +9,7 @@ const Hero = () => {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['Software Engineer', 'Designer', 'Photographer'],
+      strings: ['Software Engineer', 'Tech Enthusiast', 'Creator', 'Innovator', 'Problem Solver'],
       typeSpeed: 70,
       backSpeed: 40,
       backDelay: 2000,
