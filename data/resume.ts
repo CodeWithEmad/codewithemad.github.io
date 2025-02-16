@@ -36,8 +36,19 @@ export const resumeData: ResumeData = {
   experience: [
     {
       title: 'Senior Software Engineer',
+      organization: 'troweb, Dubai, UAE',
+      date: 'August 2023 - Present',
+      description: '',
+      bulletPoints: [
+        'Design and implement an event driven architecture using Kafka and Kubernetes, reducing the system latency by 30%.',
+        'Building RAG pipelines and designing agentic workflows to enhance automation and intelligent decision-making.',
+        'Designed an onboarding program for new engineers, ensuring a smooth transition and rapid integration into the team.',
+      ],
+    },
+    {
+      title: 'Senior Software Engineer',
       organization: 'edSPIRIT, Dubai, UAE',
-      date: 'May 2021 - Present',
+      date: 'May 2021 - August 2023',
       description: '',
       bulletPoints: [
         {
@@ -49,7 +60,6 @@ export const resumeData: ResumeData = {
           link: { url: 'https://openedx.org', text: 'Open edX' },
         },
         'Supervised infrastructure transition (EKS to in-house clusters) and major upgrades with 99.99% uptime.',
-        'Designed an onboarding program for new engineers, ensuring a smooth transition and rapid integration into the team.',
       ],
     },
     {
@@ -63,15 +73,15 @@ export const resumeData: ResumeData = {
         'Devised a web scraping tool that automated 100% of the EPUB creation workflow, saving our content team 3+ months of work and securing a partnership with Rice University.',
       ],
     },
-    {
-      title: 'Backend Developer',
-      organization: 'InstructHub, Tehran, Iran',
-      date: 'September 2017 - January 2019',
-      bulletPoints: [
-        'Refactored a large legacy codebase from Python 2 to 3, resulting in system performance and using modern libraries.',
-        'Worked closely with stakeholders to gather and analyze requirements for developing software solutions.',
-        'Optimized database queries and implemented caching strategies, reducing average API response time.',
-      ],
-    },
+    // {
+    //   title: 'Backend Developer',
+    //   organization: 'InstructHub, Tehran, Iran',
+    //   date: 'September 2017 - January 2019',
+    //   bulletPoints: [
+    //     'Refactored a large legacy codebase from Python 2 to 3, resulting in system performance and using modern libraries.',
+    //     'Worked closely with stakeholders to gather and analyze requirements for developing software solutions.',
+    //     'Optimized database queries and implemented caching strategies, reducing average API response time.',
+    //   ],
+    // },
   ],
 }
