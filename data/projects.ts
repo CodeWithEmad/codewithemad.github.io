@@ -2,6 +2,18 @@ import { Project } from '@/types/project'
 
 export const projects: Project[] = [
   {
+    title: 'YouTube Channel',
+    description: 'Free programming courses for the Iranian community, mostly on Python basics.',
+    image: '/images/projects/youtube-banner.png',
+    technologies: ['Programming', 'Python', 'App Development'],
+    otherUrls: [
+      {
+        url: 'https://youtube.com/@codetherapy',
+        text: 'YouTube Channel',
+      },
+    ],
+  },
+  {
     title: 'Maintenance Helm chart',
     description: 'A Helm chart for deploying a maintenance page while swamped by work.',
     image: '/images/projects/maintenance-helm-chart.svg',
