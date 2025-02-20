@@ -5,4 +5,5 @@ export interface Project {
   technologies: string[]
   liveUrl?: string
   githubUrl?: string
+  otherUrls?: { url: string; text: string }[]
 }

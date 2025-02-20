@@ -1,5 +1,6 @@
 import { Project } from '@/types/project'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export const ProjectCard = ({ project }: { project: Project }) => (
   <div className='mb-6 overflow-hidden rounded-xl bg-white shadow-lg transition-all duration-300 hover:scale-105 dark:bg-gray-800'>
@@ -21,25 +22,36 @@ export const ProjectCard = ({ project }: { project: Project }) => (
       </div>
       <div className='flex gap-4'>
         {project.liveUrl && (
-          <a
+          <Link
             href={project.liveUrl}
             target='_blank'
             rel='noopener noreferrer'
             className='text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300'
           >
             Live Demo
-          </a>
+          </Link>
         )}
         {project.githubUrl && (
-          <a
+          <Link
             href={project.githubUrl}
             target='_blank'
             rel='noopener noreferrer'
             className='text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-300'
           >
             GitHub
-          </a>
+          </Link>
         )}
+        {project.otherUrls?.map((url, index) => (
+          <Link
+            key={index}
+            href={url.url}
+            target='_blank'
+            rel='noopener noreferrer'
+            className='text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-300'
+          >
+            {url.text}
+          </Link>
+        ))}
       </div>
     </div>
   </div>
