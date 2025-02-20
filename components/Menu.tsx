@@ -1,6 +1,6 @@
 'use client'
 import Link from 'next/link'
-import { Home, User, FileText, BookOpen, Sun, Moon, MessageCircle } from 'lucide-react'
+import { Home, User, FileText, BookOpen, Sun, Moon, MessageCircle, Layout } from 'lucide-react'
 import { useTheme } from 'next-themes'
 import { useEffect, useState } from 'react'
 
@@ -19,6 +19,7 @@ const Menu = ({ onClose }: MenuProps) => {
     { href: '#about', icon: <User size={20} />, text: 'About' },
     { href: '#resume', icon: <FileText size={20} />, text: 'Resume' },
     { href: '#skills', icon: <BookOpen size={20} />, text: 'Skills' },
+    { href: '#projects', icon: <Layout size={20} />, text: 'Projects' },
     { href: '#contact', icon: <MessageCircle size={20} />, text: 'Contact' },
   ]
 
