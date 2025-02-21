@@ -30,7 +30,6 @@ export interface Experience {
 export interface ResumeData {
   summary: string
   education: Education[]
-  projects: Project[]
   certificates: {
     url: string
   }

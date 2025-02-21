@@ -34,22 +34,15 @@ const ResumeLeft = memo<ResumeLeftProps>(({ data }) => (
       ))}
     </TimelineSection>
 
-    <h3 className='mb-6 mt-12 text-2xl font-bold text-gray-800 dark:text-gray-100'>Projects</h3>
-    {data.projects.map((project, index) => (
-      <div key={index} className='timeline-item'>
-        <div className='timeline-marker'>
-          <div className='timeline-circle' role='presentation' />
-          <div className='timeline-line' />
-        </div>
-        <div className='timeline-content'>
-          <h4 className='timeline-title'>{project.title}</h4>
-          <p className='timeline-description'>{project.description}</p>
-          <Link href={project.url} className='text-blue-600 hover:underline' rel='noopener noreferrer' target='_blank'>
-            Project URL
-          </Link>
-        </div>
-      </div>
-    ))}
+    <h3 className='mb-6 mt-12 text-2xl font-bold text-gray-800 dark:text-gray-100'>Certificates</h3>
+
+    <p>
+      You can find all of my certificates on my LinkedIn profile. Take a look{' '}
+      <Link className='underline' href={data.certificates.url} target='_blank'>
+        here
+      </Link>
+      .
+    </p>
   </div>
 ))
 

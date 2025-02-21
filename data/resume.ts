@@ -20,15 +20,6 @@ export const resumeData: ResumeData = {
     },
   ],
 
-  projects: [
-    {
-      title: 'Iranian GitHub',
-      description:
-        'A project, aimed at collecting data related to Iran and hosting Iranian projects. We aim to highlight Iranian open-source projects, connect developers within the Iranian community, and provide resources and support for new contributors.',
-      url: 'https://github.com/iranian-github',
-    },
-  ],
-
   certificates: {
     url: 'https://www.linkedin.com/in/emadehsanrad/details/certifications/',
   },
@@ -42,7 +33,7 @@ export const resumeData: ResumeData = {
       bulletPoints: [
         'Design and implement an event driven architecture using Kafka and Kubernetes, reducing the system latency by 30%.',
         'Building RAG pipelines and designing agentic workflows to enhance automation and intelligent decision-making.',
-        'Designed an onboarding program for new engineers, ensuring a smooth transition and rapid integration into the team.',
+        // 'Designed an onboarding program for new engineers, ensuring a smooth transition and rapid integration into the team.',
       ],
     },
     {
@@ -59,7 +50,7 @@ export const resumeData: ResumeData = {
           text: 'Recognized as a core contributor in the Open edX community, an open-source learning platform used by millions.',
           link: { url: 'https://openedx.org', text: 'Open edX' },
         },
-        'Supervised infrastructure transition (EKS to in-house clusters) and major upgrades with 99.99% uptime.',
+        // 'Supervised infrastructure transition (EKS to in-house clusters) and major upgrades with 99.99% uptime.',
       ],
     },
     {
@@ -70,7 +61,7 @@ export const resumeData: ResumeData = {
       bulletPoints: [
         'Implemented multi-tenancy support, enhancing scalability and reducing operational costs by 20%.',
         'Integrated authentication and other services with SSO with Keycloak, enhancing security and system efficiency.',
-        'Devised a web scraping tool that automated 100% of the EPUB creation workflow, saving our content team 3+ months of work and securing a partnership with Rice University.',
+        // 'Devised a web scraping tool that automated 100% of the EPUB creation workflow, saving our content team 3+ months of work and securing a partnership with Rice University.',
       ],
     },
     // {
