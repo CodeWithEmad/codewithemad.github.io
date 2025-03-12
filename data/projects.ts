@@ -43,4 +43,11 @@ export const projects: Project[] = [
     technologies: ['Python', 'click'],
     githubUrl: 'https://github.com/codewithemad/apyrat',
   },
+  {
+    title: 'Fork Cleanup',
+    description: 'A GitHub CLI extension that helps you clean up your forked repositories.',
+    image: '/images/projects/github-cli-extension-fork-cleanup.jpg',
+    technologies: ['Go', 'GtiHub', 'Extension', 'CLI'],
+    githubUrl: 'https://github.com/codeWithEmad/gh-fork-cleanup/',
+  },
 ]
