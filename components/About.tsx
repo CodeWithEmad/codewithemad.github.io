@@ -23,8 +23,8 @@ const About = () => {
             <div className='space-y-4 text-lg italic text-gray-600 dark:text-gray-300'>
               <p>
                 As a dedicated problem solver and technophile, I thrive on tackling complex challenges and staying ahead
-                of the curve with the latest technological advancements. Currently, I am a software engineer at
-                edSPIRIT, where I can fully leverage my passion for technology and innovation.
+                of the curve with the latest technological advancements. Currently, I am a senior software engineer at
+                troweb, where I can fully leverage my passion for AI, technology and innovation.
               </p>
               <p>
                 My journey into the world of coding began in my teenage years when it was more of a captivating hobby.
@@ -32,9 +32,9 @@ const About = () => {
                 where my true passion lay.
               </p>
               <p>
-                Since embarking on this career path, I have worked on numerous freelance projects and contributed to
-                several notable startups. Today, I am part of the dynamic team at edSPIRIT and am also delving into the
-                exciting field of AI and Machine Learning in my spare time.
+                Since embarking on this career path, I have worked on numerous projects and contributed to several
+                notable startups and big companies. Today, I am part of the dynamic team at troweb and am also delving
+                into the exciting field of AI and Machine Learning in my spare time.
               </p>
               <p>
                 My technical repertoire includes expertise in Python, TypeScript, JavaScript, Dart, Flutter, NextJS, and
