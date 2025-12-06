@@ -29,8 +29,8 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://codewithemad.ir'),
-  title: 'Emad Rad - Software Engineer',
-  description: 'Explore my portfolio and professional journey as a software engineer.',
+  title: 'Emad Rad - Senior Software Engineer',
+  description: 'Explore my portfolio and professional journey as a senior software engineer.',
   manifest: '/site.webmanifest',
   icons: {
     icon: [
@@ -56,8 +56,8 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Emad Rad - Software Engineer',
-    description: 'Explore my portfolio and professional journey as a software engineer.',
+    title: 'Emad Rad - Senior Software Engineer',
+    description: 'Explore my portfolio and professional journey as a senior software engineer.',
     url: 'https://codewithemad.ir',
     siteName: 'Emad Rad Portfolio',
     type: 'website',
@@ -67,25 +67,25 @@ export const metadata: Metadata = {
         url: 'https://codewithemad.ir/images/website-social-card.png',
         width: 1200,
         height: 630,
-        alt: 'Emad Rad - Software Engineer Portfolio',
+        alt: 'Emad Rad - Senior Software Engineer Portfolio',
         type: 'image/png',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Emad Rad - Software Engineer',
-    description: 'Explore my portfolio and professional journey as a software engineer.',
+    title: 'Emad Rad - Senior Software Engineer',
+    description: 'Explore my portfolio and professional journey as a senior software engineer.',
     creator: '@codewithemad',
     site: '@codewithemad',
     images: {
       url: 'https://codewithemad.ir/images/website-social-card.png',
-      alt: 'Emad Rad - Software Engineer Portfolio',
+      alt: 'Emad Rad - Senior Software Engineer Portfolio',
     },
   },
   other: {
     'msapplication-TileColor': '#da532c',
-    'apple-mobile-web-app-title': 'Emad Rad - Software Engineer',
+    'apple-mobile-web-app-title': 'Emad Rad - Senior Software Engineer',
   },
   category: 'technology',
 }

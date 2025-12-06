@@ -1,7 +1,7 @@
 import { ResumeData } from '../types/resume'
 
 export const resumeData: ResumeData = {
-  summary: `Software engineer with more than 7 years of expertise in developing scalable applications used by over 100 thousand users. Proficient in multiple programming languages and frameworks. Consistently worked in international environments with cross-functional teams to drive growth through innovative solutions. Committed to continuous learning and adapting to emerging technologies. Good team player and active open-source contributor.`,
+  summary: `Senior software engineer with more than 7 years of expertise in developing scalable applications used by over 100 thousand users. Proficient in multiple programming languages and frameworks. Consistently worked in international environments with cross-functional teams to drive growth through innovative solutions. Committed to continuous learning and adapting to emerging technologies. Good team player and active open-source contributor.`,
 
   education: [
     {
