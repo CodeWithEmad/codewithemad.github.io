@@ -16,5 +16,11 @@
     "[typescriptreact]": {
         "editor.formatOnSave": true,
         "editor.formatOnPaste": false
-    }
+    },
+    "cSpell.words": [
+        "codewithemad",
+        "Emad",
+        "Pubnito",
+        "troweb"
+    ]
 }
