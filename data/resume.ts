@@ -26,9 +26,20 @@ export const resumeData: ResumeData = {
 
   experience: [
     {
+      title: 'Technical Lead',
+      organization: 'Abstract Technology, Berlin, Germany',
+      date: 'August 2023 - Present',
+      description: '',
+      bulletPoints: [
+        'Led technical design and architecture decisions for backend systems.',
+        'Mentored engineers through code reviews and best practices.',
+        'Translated business requirements into scalable technical solutions.',
+      ],
+    },
+    {
       title: 'Senior Software Engineer',
       organization: 'troweb, Dubai, UAE',
-      date: 'August 2023 - Present',
+      date: 'January 2024 - October 2025',
       description: '',
       bulletPoints: [
         'Design and implement an event driven architecture using Kafka and Kubernetes, reducing the system latency by 30%.',
@@ -39,7 +50,7 @@ export const resumeData: ResumeData = {
     {
       title: 'Senior Software Engineer',
       organization: 'edSPIRIT, Dubai, UAE',
-      date: 'May 2021 - August 2023',
+      date: 'November 2021 - January 2023',
       description: '',
       bulletPoints: [
         {
@@ -53,17 +64,17 @@ export const resumeData: ResumeData = {
         // 'Supervised infrastructure transition (EKS to in-house clusters) and major upgrades with 99.99% uptime.',
       ],
     },
-    {
-      title: 'Software Engineer',
-      organization: 'Pubnito, Tehran, Iran',
-      date: 'May 2019 - April 2021',
-      description: 'Maintainer of Pubnito Studio, a part of Pubnito Digital Book Store.',
-      bulletPoints: [
-        'Implemented multi-tenancy support, enhancing scalability and reducing operational costs by 20%.',
-        'Integrated authentication and other services with SSO with Keycloak, enhancing security and system efficiency.',
-        // 'Devised a web scraping tool that automated 100% of the EPUB creation workflow, saving our content team 3+ months of work and securing a partnership with Rice University.',
-      ],
-    },
+    // {
+    //   title: 'Software Engineer',
+    //   organization: 'Pubnito, Tehran, Iran',
+    //   date: 'December 2019 - November 2021',
+    //   description: 'Maintainer of Pubnito Studio, a part of Pubnito Digital Book Store.',
+    //   bulletPoints: [
+    //     'Implemented multi-tenancy support, enhancing scalability and reducing operational costs by 20%.',
+    //     'Integrated authentication and other services with SSO with Keycloak, enhancing security and system efficiency.',
+    //     // 'Devised a web scraping tool that automated 100% of the EPUB creation workflow, saving our content team 3+ months of work and securing a partnership with Rice University.',
+    //   ],
+    // },
     // {
     //   title: 'Backend Developer',
     //   organization: 'InstructHub, Tehran, Iran',
