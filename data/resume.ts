@@ -31,9 +31,10 @@ export const resumeData: ResumeData = {
       date: 'August 2023 - Present',
       description: '',
       bulletPoints: [
-        'Led technical design and architecture decisions for backend systems.',
         'Mentored engineers through code reviews and best practices.',
         'Translated business requirements into scalable technical solutions.',
+        'Conducted technical interviews and evaluated candidates to build a high-performing engineering team.',
+        'Worked with different proctoring solutions like Smowl, ProctorU and Examity to ensure secure online examinations.',
       ],
     },
     {
