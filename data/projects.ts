@@ -44,6 +44,14 @@ export const projects: Project[] = [
     githubUrl: 'https://github.com/codewithemad/apyrat',
   },
   {
+    title: 'GitLab MR Approval extension',
+    description:
+      'This Extension enforces strict approval rules on GitLab Merge Requests and provides critical warnings when merging into protected branches.',
+    image: '/images/projects/gitlab-mr-approval-extension.png',
+    technologies: ['GitLab', 'Extension', 'Firefox', 'Chrome'],
+    githubUrl: 'https://github.com/codeWithEmad/gitlab-mr-approval-extension',
+  },
+  {
     title: 'Fork Cleanup',
     description: 'A GitHub CLI extension that helps you clean up your forked repositories.',
     image: '/images/projects/github-cli-extension-fork-cleanup.jpg',
