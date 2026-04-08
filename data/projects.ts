@@ -42,6 +42,12 @@ export const projects: Project[] = [
     image: '/images/projects/cli-banner.jpg',
     technologies: ['Python', 'click'],
     githubUrl: 'https://github.com/codewithemad/apyrat',
+    otherUrls: [
+      {
+        url: 'https://pypi.org/project/apyrat/',
+        text: 'PyPI',
+      },
+    ],
   },
   {
     title: 'GitLab MR Approval extension',
@@ -50,6 +56,16 @@ export const projects: Project[] = [
     image: '/images/projects/gitlab-mr-approval-extension.png',
     technologies: ['GitLab', 'Extension', 'Firefox', 'Chrome'],
     githubUrl: 'https://github.com/codeWithEmad/gitlab-mr-approval-extension',
+    otherUrls: [
+      {
+        url: 'https://chromewebstore.google.com/detail/gitlab-mr-approval-guard/gkkmbokndbfihjbkcfmhmccboleeegjm',
+        text: 'Chrome Web Store',
+      },
+      {
+        url: 'https://addons.mozilla.org/en-US/firefox/addon/gitlab-mr-approval-guard/',
+        text: 'Firefox Add-ons',
+      },
+    ],
   },
   {
     title: 'Fork Cleanup',
