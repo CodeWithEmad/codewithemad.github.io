@@ -50,6 +50,13 @@ export const projects: Project[] = [
     ],
   },
   {
+    title: 'GitLab Prometheus Exporter',
+    description: 'Prometheus exporter for GitLab governance, access and project metrics.',
+    image: '/images/projects/gitlab-prometheus-exporter.png',
+    technologies: ['GitLab', 'Prometheus', 'Grafana'],
+    githubUrl: 'https://github.com/codeWithEmad/gitlab-prometheus-exporter',
+  },
+  {
     title: 'GitLab MR Approval extension',
     description:
       'This Extension enforces strict approval rules on GitLab Merge Requests and provides critical warnings when merging into protected branches.',
