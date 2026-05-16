@@ -3,6 +3,7 @@ import { Poppins, Raleway, Open_Sans } from 'next/font/google'
 import './globals.css'
 import { ThemeProvider } from '@/components/ThemeProvider'
 import AOSInit from '@/components/AOS'
+import LenisProvider from '@/providers/Lenis'
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -102,8 +103,10 @@ export default function RootLayout({
         className={`${poppins.variable} ${raleway.variable} ${openSans.variable} bg-white font-sans text-gray-700 antialiased dark:bg-gray-900 dark:text-gray-200`}
       >
         <ThemeProvider attribute='class' defaultTheme='system' enableSystem>
-          <AOSInit />
-          {children}
+          <LenisProvider>
+            <AOSInit />
+            {children}
+          </LenisProvider>
         </ThemeProvider>
       </body>
     </html>

@@ -28,7 +28,7 @@ export const resumeData: ResumeData = {
     {
       title: 'Technical Lead',
       organization: 'Abstract Technology, Berlin, Germany',
-      date: 'August 2023 - Present',
+      date: 'July 2025 - Present',
       description: '',
       bulletPoints: [
         'Mentored engineers through code reviews and best practices.',
@@ -40,7 +40,7 @@ export const resumeData: ResumeData = {
     {
       title: 'Senior Software Engineer',
       organization: 'troweb, Dubai, UAE',
-      date: 'January 2024 - October 2025',
+      date: 'January 2024 - July 2025',
       description: '',
       bulletPoints: [
         'Design and implement an event driven architecture using Kafka and Kubernetes, reducing the system latency by 30%.',
